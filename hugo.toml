@@ -11,7 +11,7 @@ disableKinds = ["taxonomy", "term"]
   xhtml = true
 
 [params]
-  description = "Your site description"
+  description = "peronal-blog"
 
 [menu]
   [[menu.main]]
