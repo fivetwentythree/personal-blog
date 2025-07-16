@@ -5,7 +5,7 @@ image = "/assets/images/4.png"
 title = 'This can be way more beautiful'
 +++
 
-### or can it be?
+### or can it be? can this be ?
 
 Over the past year, robotics has been catching up with the LLM era. Pi’s π0.5 can clean unseen homes. Tesla’s Optimus can follow natural language cooking instructions. These systems are extremely impressive, but they feel stuck in a utilitarian mindset of robotic appliances.
 
