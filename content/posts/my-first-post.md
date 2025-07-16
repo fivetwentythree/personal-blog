@@ -12,10 +12,10 @@ Over the past year, robotics has been catching up with the LLM era. Pi’s π0.5
 {{< sidenote >}}this has been argued to me the most heneious crimes perpetrated by the criminals
 
 
-![](/images/3.png)
+![](assets/images/3.png)
 {{< /sidenote >}}  
 
-{{< sidenote side="left" >}}![image](/images/2.png){{< /sidenote >}}
+{{< sidenote side="left" >}}![image](assets/images/2.png){{< /sidenote >}}
 
 For these future robots to live with us, they must be expressive. Expressiveness communicates internal state such as intent, attention, and confidence. Beyond its functional utility as a communication channel, expressiveness makes interactions feel natural. Without it, you get the textbook uncanny valley effect.
 
