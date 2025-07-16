@@ -15,7 +15,9 @@ little spot of crimson amongst the wavering shadows of the trees, a few
 hulking idlers in corduroy and bluchers, and a tipsy female sleeping
 on the grass.&lt;/p>
 &lt;p>&lt;span class="sidenote sidenote-left">
-this image show how this is normaally done in the past and this is how we do it in present &lt;img src="https://fivetwentythree.github.io/personal-blog/images/1.png" alt="this_is_a_new_image" />
+this image show how this is normaally done in the past and this is how we do it in present &lt;img src="https://fivetwentythree.github.io/personal-blog/images/1.png"
+alt="this_is_a_new_image"
+>
 &lt;/span>&lt;span class="sidenote sidenote-right">
 $$
 \int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
@@ -25,14 +27,17 @@ $$
 four ranks of carriages in line, and to rescue foot-passengers from
 the pawing hoofs of three-hundred-guinea steeds.&lt;/p>
 &lt;span class="sidenote sidenote-right">
-&lt;img src="https://fivetwentythree.github.io/personal-blog/images/4.png" alt="" />
+&lt;img src="https://fivetwentythree.github.io/personal-blog/images/4.png"
+>
 &lt;/span>
 &lt;p>The walk under the trees is as crowded as the enclosure at Ascot, and the iron chairs are
 as fully occupied as the seats in a fashionable chapel. The pouncing
 proprietor, with the leathern pouch at his side, has hard work to
 collect his rents, so rapidly do his customers come and go, and is
 distracted by vague fears of levanting tenants and bad debts.&lt;/p>
-&lt;p>&lt;img src="https://fivetwentythree.github.io/personal-blog/images/2.png" alt="book_cover" />&lt;/p>
+&lt;p>&lt;img src="https://fivetwentythree.github.io/personal-blog/images/2.png"
+alt="book_cover"
+>&lt;/p>
 &lt;p>On all the length of the rails between Hyde-Park Corner and the Serpentine
 there is scarcely room for one lounger more, for the rule of fashion
 is so subtile a bondage, that it has compelled millions of people who
@@ -66,10 +71,13 @@ that &amp;ldquo;whatever is, is right.&amp;rdquo;&lt;/p></description></item><it
 &lt;p>Over the past year, robotics has been catching up with the LLM era. Pi’s π0.5 can clean unseen homes. Tesla’s Optimus can follow natural language cooking instructions. These systems are extremely impressive, but they feel stuck in a utilitarian mindset of robotic appliances.&lt;/p>
 &lt;span class="sidenote sidenote-right">
 &lt;p>this has been argued to me the most heneious crimes perpetrated by the criminals&lt;/p>
-&lt;p>&lt;img src="https://fivetwentythree.github.io/personal-blog/images/3.png" alt="" />&lt;/p>
+&lt;p>&lt;img src="https://fivetwentythree.github.io/personal-blog/images/3.png"
+>&lt;/p>
 &lt;/span>
 &lt;span class="sidenote sidenote-left">
-&lt;img src="https://fivetwentythree.github.io/personal-blog/images/2.png" alt="image" />
+&lt;img src="https://fivetwentythree.github.io/personal-blog/images/2.png"
+alt="image"
+>
 &lt;/span>
 &lt;p>For these future robots to live with us, they must be expressive. Expressiveness communicates internal state such as intent, attention, and confidence. Beyond its functional utility as a communication channel, expressiveness makes interactions feel natural. Without it, you get the textbook uncanny valley effect.&lt;/p>
 &lt;p>Earlier this year, I came across Apple’s ELEGNT paper, which frames this idea rigorously through a Pixar-like lamp to show how posture and timing alone can convey intention. Around the same time, I discovered SpiRobs, a soft tentacle robot that feels oddly alive with just simple movements. One system was carefully designed to express intent while the other just moved, yet somehow felt like it had intent. That difference was interesting. I started building Shoggoth Mini as a way to explore it more directly. Not with a clear goal, but to see what would happen if I pushed embodiment into stranger territory. This post retraces that process, the happy accidents, and what I learned about building robots.&lt;/p></description></item></channel></rss>

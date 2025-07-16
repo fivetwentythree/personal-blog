@@ -1,0 +1,18 @@
+<img src="{{ .Destination | safeURL }}"
+    {{ with .Text }}alt="{{ . }}"{{ end }}
+    {{ with .Title }}title="{{ . }}"{{ end }}
+    {{ if or (eq .Destination "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMCIgaGVpZ2h0PSIwIiB2aWV3Qm94PSIwIDAgMCAwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0wIDBoMCIvPjwvc3ZnPg==") (hasPrefix .Destination "http") }}
+    loading="lazy"
+    {{ else }}
+    {{ $img := resources.Get .Destination }}
+    {{ if $img }}
+        {{ $tiny := $img.Resize "200x webp" }}
+        {{ $small := $img.Resize "400x webp" }}
+        {{ $medium := $img.Resize "800x webp" }}
+        {{ $large := $img.Resize "1200x webp" }}
+        srcset="{{ $tiny.RelPermalink }} 200w, {{ $small.RelPermalink }} 400w, {{ $medium.RelPermalink }} 800w, {{ $large.RelPermalink }} 1200w"
+        sizes="(max-width: 600px) 100vw, 600px"
+        loading="lazy"
+    {{ end }}
+    {{ end }}
+>
