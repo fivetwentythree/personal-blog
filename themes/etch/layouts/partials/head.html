@@ -34,7 +34,10 @@
 
     <link rel="canonical" href="{{ .Permalink }}" />
     <title>{{ .Title }}</title>
-    <link rel="preload" href="{{ "/fonts/departure-mono.woff2" | absURL }}" as="font" type="font/woff2" crossorigin>
+    {{ $font := resources.Get "fonts/departure-mono.woff2" }}
+    {{ if $font }}
+    <link rel="preload" href="{{ $font.Permalink }}" as="font" type="font/woff2" crossorigin>
+    {{ end }}
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             tex2jax: {
