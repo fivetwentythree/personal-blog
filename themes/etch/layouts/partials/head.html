@@ -61,7 +61,7 @@
     {{ with .Params.image }}
     <meta property="og:image" content="{{ . | absURL }}" />
     {{ else }}
-    <meta property="og:image" content="{{ "images/default_social_image.png" | absURL }}" />{{/* Change this to your default social image */}}
+    <meta property="og:image" content="{{ "/images/default_social_image.png" | absURL }}" />{{/* Change this to your default social image */}}
     {{ end }}
 
     {{/* Twitter Card */}}
@@ -71,6 +71,6 @@
     {{ with .Params.image }}
     <meta name="twitter:image" content="{{ . | absURL }}" />
     {{ else }}
-    <meta name="twitter:image" content="{{ "images/default_social_image.png" | absURL }}" />{{/* Change this to your default social image */}}
+    <meta name="twitter:image" content="{{ "/images/default_social_image.png" | absURL }}" />{{/* Change this to your default social image */}}
     {{ end }}
 </head>
