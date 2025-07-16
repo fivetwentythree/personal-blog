@@ -19,7 +19,7 @@ little spot of crimson amongst the wavering shadows of the trees, a few
 hulking idlers in corduroy and bluchers, and a tipsy female sleeping
 on the grass. 
 
-{{< sidenote side="left" >}} this image show how this is normaally done in the past and this is how we do it in present ![this_is_a_new_image](assets/images/1.png){{</ sidenote >}}{{< sidenote >}}
+{{< sidenote side="left" >}} this image show how this is normaally done in the past and this is how we do it in present ![this_is_a_new_image](/assets/images/1.png){{</ sidenote >}}{{< sidenote >}}
 
 $$
 \int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
@@ -33,7 +33,7 @@ the pawing hoofs of three-hundred-guinea steeds.
 
 
 
-{{< sidenote >}}![](assets/images/4.png){{< /sidenote >}}
+{{< sidenote >}}![](/assets/images/4.png){{< /sidenote >}}
 
 The walk under the trees is as crowded as the enclosure at Ascot, and the iron chairs are
 as fully occupied as the seats in a fashionable chapel. The pouncing
@@ -41,7 +41,7 @@ proprietor, with the leathern pouch at his side, has hard work to
 collect his rents, so rapidly do his customers come and go, and is
 distracted by vague fears of levanting tenants and bad debts. 
 
-![book_cover](assets/images/2.png)
+![book_cover](/assets/images/2.png)
 
 On all the length of the rails between Hyde-Park Corner and the Serpentine
 there is scarcely room for one lounger more, for the rule of fashion
