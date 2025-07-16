@@ -12,6 +12,7 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
   description = "peronal-blog"
+  dark = "off"
 
 [menu]
   [[menu.main]]
