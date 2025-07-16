@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Books on Lochana Perera</title>
+    <link>http://localhost:1313/books/</link>
+    <description>Recent content in Books on Lochana Perera</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Jul 2025 16:52:57 +1000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/books/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Attention is all you need</title>
+      <link>http://localhost:1313/posts/second-post/</link>
+      <pubDate>Wed, 16 Jul 2025 16:52:57 +1000</pubDate>
+      
+      <guid>http://localhost:1313/posts/second-post/</guid>
+      <description>&lt;p&gt;It was high tide&amp;ndash;spring tide, if you will&amp;ndash;at half past-six o&amp;rsquo;clock
+on a warm June evening: not the commonplace ebb and flow of a vulgar
+river; but the mighty tide of fashion&amp;rsquo;s wonderful sea, surging
+westward, under the dusty elms and lindens of the Lady&amp;rsquo;s Mile. If
+you had driven round this very park between four and five on this
+very afternoon, you would have been gratified by the sight of some
+half-dozen nursemaids with their straggling charges, an occasional girl
+and perambulator, a picturesque life guardsman here and there, making a
+little spot of crimson amongst the wavering shadows of the trees, a few
+hulking idlers in corduroy and bluchers, and a tipsy female sleeping
+on the grass.&lt;/p&gt;
+&lt;p&gt;Now the excited policemen have enough to do to keep the
+four ranks of carriages in line, and to rescue foot-passengers from
+the pawing hoofs of three-hundred-guinea steeds. The walk under the
+trees is as crowded as the enclosure at Ascot, and the iron chairs are
+as fully occupied as the seats in a fashionable chapel. The pouncing
+proprietor, with the leathern pouch at his side, has hard work to
+collect his rents, so rapidly do his customers come and go, and is
+distracted by vague fears of levanting tenants and bad debts.&lt;/p&gt;
+&lt;p&gt;On all the length of the rails between Hyde-Park Corner and the Serpentine
+there is scarcely room for one lounger more, for the rule of fashion
+is so subtile a bondage, that it has compelled millions of people who
+never in all their lives have spoken to one another to wear the same
+order of garments, and talk the same slang, and ride in the same kind
+of carriages, and eat the same class of dinners, and congregate in
+the same places, at the same hour, year after year, and century after
+century, from the earliest dawn of civilisation until to-day.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Wed, 16 Jul 2025 16:52:57 +1000</pubDate>
+      
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;this is the test post&lt;/p&gt;
+</description>
+    </item>
+    
+    
+  </channel>
+</rss>
