@@ -4,7 +4,8 @@
     {{ if or (eq .Destination "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMCIgaGVpZ2h0PSIwIiB2aWV3Qm94PSIwIDAgMCAwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0wIDBoMCIvPjwvc3ZnPg==") (hasPrefix .Destination "http") }}
     loading="lazy"
     {{ else }}
-    {{ $img := resources.Get .Destination }}
+    {{ $imagePath := replace .Destination "/assets/" "" }}
+    {{ $img := resources.Get $imagePath }}
     {{ if $img }}
         {{ $tiny := $img.Resize "200x webp" }}
         {{ $small := $img.Resize "400x webp" }}
