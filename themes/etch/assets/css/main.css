@@ -265,10 +265,7 @@ main#content pre {
     font-family: 'Menlo', monospace;
 }
 
-main#content code {
-    font-size: 0.96em;
-    padding: 0 5px;
-}
+
 
 main#content pre {
     display: block;

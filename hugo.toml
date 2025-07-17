@@ -10,6 +10,9 @@ disableKinds = ["taxonomy", "term"]
   hardWraps = false
   xhtml = true
 
+[markup.highlight]
+  noClasses = false
+
 [params]
   description = "peronal-blog"
   dark = "off"

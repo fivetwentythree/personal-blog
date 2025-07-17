@@ -55,10 +55,7 @@ article img {
         border-left: none; /* Removed left border */
     }
 
-    .dark .sidenote {
-        background-color: #333;
-        border-left-color: #555;
-    }
+    
 }
 
 /* GitHub-like Code Block Styles */
@@ -81,25 +78,19 @@ article img {
     color: #24292e;
 }
 
-.dark .code-block-header {
-    background-color: #2d333b;
-    border-bottom-color: #3b434e;
-    color: #c9d1d9;
-}
+
 
 .filename {
     font-weight: 600;
 }
 
 .chroma {
-    background-color: #f6f8fa;
+    background-color: #ffffff;
     padding: 12px;
     overflow-x: auto;
 }
 
-.dark .chroma {
-    background-color: #22272e;
-}
+
 
 .chroma pre {
     margin: 0;
@@ -109,9 +100,5 @@ article img {
 }
 
 .chroma code {
-    color: #24292e; /* Default text color for code */
-}
-
-.dark .chroma code {
-    color: #c9d1d9;
+    /* Color is handled by syntax.css */
 }

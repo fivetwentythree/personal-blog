@@ -27,6 +27,8 @@
 
     
 
+    {{ $resources = $resources | append (resources.Get "css/syntax.css") -}}
+
     {{ $resources = $resources | append (resources.Get "css/custom.css") -}}
 
     {{ $css := $resources | resources.Concat "css/style.css" | minify }}
