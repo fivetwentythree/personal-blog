@@ -23,5 +23,3 @@ For these future robots to live with us, they must be expressive. Expressiveness
 
 Earlier this year, I came across Apple’s ELEGNT paper, which frames this idea rigorously through a Pixar-like lamp to show how posture and timing alone can convey intention. Around the same time, I discovered SpiRobs, a soft tentacle robot that feels oddly alive with just simple movements. One system was carefully designed to express intent while the other just moved, yet somehow felt like it had intent. That difference was interesting. I started building Shoggoth Mini as a way to explore it more directly. Not with a clear goal, but to see what would happen if I pushed embodiment into stranger territory. This post retraces that process, the happy accidents, and what I learned about building robots.
 
-
-
