@@ -288,7 +288,7 @@ main#content pre code {
 
 @media (max-width: 768px) {
     main#content pre {
-        font-size: 0.75em; /* Adjusted for mobile */
+        font-size: 3vw; /* Adjusted for mobile using viewport width */
         line-height: 1.3; /* Adjusted for mobile */
     }
 }
