@@ -90,6 +90,7 @@ main#content h5,
 main#content h6 {
     margin-bottom: 0;
     line-height: 1.15;
+    font-weight: 600;
 }
 
 main#content h3 {
