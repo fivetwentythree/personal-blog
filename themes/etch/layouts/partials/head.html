@@ -31,7 +31,7 @@
 
     {{ $resources = $resources | append (resources.Get "css/custom.css") -}}
 
-    {{ $css := $resources | resources.Concat "css/style.css" | minify }}
+    {{ $css := $resources | resources.Concat "css/style.css" }}
     {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
 
     <link rel="canonical" href="{{ .Permalink }}" />
