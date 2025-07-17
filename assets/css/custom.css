@@ -103,8 +103,3 @@ article img {
     /* Color is handled by syntax.css */
 }
 
-@media (max-width: 768px) {
-    .chroma pre {
-        font-size: 0.1em; /* Test font size */
-    }
-}

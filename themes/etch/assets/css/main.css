@@ -282,6 +282,17 @@ main#content pre code {
     padding: 0;
 }
 
+main#content pre code {
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    main#content pre {
+        font-size: 0.75em; /* Adjusted for mobile */
+        line-height: 1.3; /* Adjusted for mobile */
+    }
+}
+
 main#content .footnotes {
     font-size: 0.9em;
 }
