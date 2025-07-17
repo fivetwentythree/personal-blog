@@ -12,7 +12,8 @@ disableKinds = ["taxonomy", "term"]
 
 [markup.highlight]
   noClasses = false
-  pygmentsUseClasses = true
+  pygmentsCodeFences = true
+  pygmentsStyle = "github"
 
 [params]
   description = "peronal-blog"
