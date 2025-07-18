@@ -6,7 +6,23 @@ title = 'Playing Atari with deep reinforcement learning '
 +++
 
 
+{{< sidenote >}}
 ![atari-breakout](/assets/images/atari-breakout-display.jpg.webp)
+
+### Atari Breakout
+
+Breakout is a seminal arcade video game developed by Atari, Inc., and released in 1976. Designed by Nolan Bushnell and Steve Bristow, with engineering by Steve Wozniak, it evolved from Atari's Pong and became a cornerstone of early gaming.
+
+**Gameplay**: Players control a horizontal paddle at the bottom of the screen to bounce a ball toward a wall of colored bricks at the top. The ball destroys bricks on contact, scoring points, while deflecting off walls and the paddle. The goal is to clear all bricks across levels without letting the ball fall past the paddle (losing a life). Power-ups and speed increases add challenge; it's single-player with simple controls (knob or joystick).
+
+**Mechanics and Features**:
+- **Core Loop**: Ball physics simulate realistic bounces; breaking bricks can accelerate the ball or introduce multiples.
+- **Scoring**: Points vary by brick color/position; high scores encourage replay.
+- **Lives and Progression**: Start with limited lives; levels advance with faster gameplay and varied brick layouts.
+- **Hardware**: Originally an arcade cabinet with black-and-white display (color overlays added); ports to Atari 2600 (1978) popularized home versions.
+
+**Legacy and Impact**: Breakout sold over 11,000 arcade units, grossing millions, and inspired the brick-breaker genre (e.g., Arkanoid, modern variants like Peggle). It influenced Apple's founding (Wozniak's involvement) and gaming design, emphasizing skill, precision, and endless replayability. Today, it's emulated widely and referenced in pop culture, symbolizing 1970s arcade innovation.
+{{< /sidenote >}}
 
 The paper introduces a novel agent, which they call a Deep Q-Network (DQN), that learns to play Atari games by looking only at the screen pixels, just like a human. The key innovations were:
 {{< sidenote side="left" >}}![atari paper](/assets/images/atari-paper.png){{< /sidenote >}}
