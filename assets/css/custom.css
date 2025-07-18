@@ -27,7 +27,7 @@ article img {
     margin-right: -53%;
     width: 40%;
     margin-top: 0.3rem;
-    margin-bottom: 0;
+    margin-bottom:0;
     font-size: 1.2rem;
     font-weight: 400;   
     color: #555;
@@ -103,3 +103,24 @@ article img {
     /* Color is handled by syntax.css */
 }
 
+/* --- New Customizations Below --- */
+
+body {
+    font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #313a3d; /* Reverted to original body text color */
+    background-color: #F9F9F9;
+}
+
+main#content {
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #111;
+}
+
+main#content {
+    max-width: 560px;
+    margin: 0 auto;
+}
