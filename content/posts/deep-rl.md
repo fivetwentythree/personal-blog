@@ -2,12 +2,10 @@
 date = '2025-07-16T16:52:57+10:00'
 draft = false
 image = "/assets/images/atari-breakout-display.jpg.webp"
-title = 'python implementation of deep RL'
+title = 'Playing Atari with deep reinforcement learning '
 +++
 
-## playing Atari with deep reinforcement learning 
 
-### core concepts 
 ![atari-breakout](/assets/images/atari-breakout-display.jpg.webp)
 
 The paper introduces a novel agent, which they call a Deep Q-Network (DQN), that learns to play Atari games by looking only at the screen pixels, just like a human. The key innovations were:
