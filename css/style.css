@@ -1,0 +1,564 @@
+@font-face {
+    font-family: 'Departure Mono';
+    src: url('https://fivetwentythree.github.io/personal-blog/fonts/departure-mono.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #111;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    line-height: 1.6;
+    overflow-wrap: break-word;
+}
+
+header#banner {
+    margin: 25px 0;
+}
+
+header#banner a {
+    color: #313a3d;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+header#banner a:hover {
+    text-decoration: underline;
+    font-family: 'Departure Mono', monospace;
+}
+
+header#banner h2 {
+    display: inline;
+    font-size: 21px;
+    font-size: 2.1rem;
+    margin: 0 8px 0 0;
+    font-family: 'Departure Mono', monospace;
+}
+
+header#banner nav {
+    display: inline-block;
+}
+
+header#banner nav ul {
+    list-style-type: none;
+    font-size: 1.05em;
+    text-transform: lowercase;
+    margin: 0;
+    padding: 0;
+}
+
+header#banner nav ul li {
+    display: inline;
+    margin: 0 3px;
+}
+
+header#banner nav ul li a {
+    color: #454545;
+    font-family: 'Departure Mono', monospace;
+}
+
+main#content a {
+    color: #007dfa;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+main#content a:hover {
+    text-decoration: underline;
+    font-family: 'Departure Mono', monospace;
+}
+
+main#content h1,
+main#content h2,
+main#content h3,
+main#content h4,
+main#content h5,
+main#content h6 {
+    margin-bottom: 0;
+    line-height: 1.15;
+    font-weight: 600;
+}
+
+main#content h3 {
+    font-size: 19px;
+    font-size: 1.9rem;
+}
+
+main#content h1 + p,
+main#content h2 + p,
+main#content h3 + p,
+main#content h4 + p,
+main#content h5 + p,
+main#content h6 + p {
+    margin-top: 5px;
+}
+
+main#content p {
+    color: #394548;
+    margin: 16px 0;
+}
+
+main#content hr {
+    height: 1px;
+    border: 0;
+    background: #d8d8d8;
+}
+
+main#content abbr {
+    cursor: help;
+}
+
+/* index.html styles */
+main#content ul#posts {
+    list-style-type: none;
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin-top: 0;
+    padding: 0;
+}
+
+main#content ul#posts li {
+    margin: 5px 0;
+    padding: 0;
+}
+
+main#content ul#posts small {
+    font-size: 0.8em;
+    color: #767676;
+    margin-left: 10px;
+}
+
+main#content ul#posts li a {
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+main#content ul#posts li a:hover {
+    color: #369aff;
+    font-family: 'Departure Mono', monospace;
+}
+
+main#content ul#posts li a:hover small {
+    color: inherit;
+}
+
+/* single.html styles */
+main#content header#post-header h1 {
+    display: block;
+    font-size: 23px;
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 1.15;
+}
+
+main#content header#post-header > div {
+    display: block;
+    font-size: 0.85em;
+    color: #767676;
+}
+
+main#content #toc {
+    border: 1px solid #b1b1b1;
+    border-radius: 1px;
+    line-height: 26px;
+    margin: 16px 0;
+    padding: 9px 14px;
+}
+
+main#content #toc h4 {
+    font-size: 1.06em;
+    color: #3d3d3d;
+    margin: 0;
+}
+
+main#content #toc nav#TableOfContents {
+    margin-top: 4px;
+}
+
+main#content #toc nav#TableOfContents > ul, main#content #toc nav#TableOfContents > ol {
+    margin-left: -40px;
+}
+
+main#content #toc ul, main#content #toc ol {
+    font-size: 0.98em;
+    margin: 0;
+    padding: 0 0 0 40px;
+}
+
+main#content #toc ul {
+    list-style-type: none;
+}
+
+main#content #toc ol {
+    counter-reset: item;
+}
+
+main#content #toc ol li {
+    display: block;
+}
+
+main#content #toc ol li:before {
+    content: counters(item, ".") ". ";
+    counter-increment: item;
+}
+
+main#content img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+main#content figure {
+    margin: 16px 0;
+}
+
+main#content figure img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+main#content figure figcaption {
+    font-size: 0.92em;
+    font-style: italic;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 6px;
+    padding: 0 10px;
+}
+
+main#content figure figcaption h4 {
+    font-style: normal;
+    display: inline;
+    margin: 0;
+}
+
+main#content figure figcaption p {
+    display: inline;
+    margin: 0;
+    padding-left: 8px;
+}
+
+main#content blockquote {
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+}
+
+main#content code,
+main#content pre {
+    font-family: 'Menlo', monospace;
+}
+
+
+
+main#content pre {
+    display: block;
+    overflow-x: auto;
+    font-size: 14px;
+    font-size: 1.4rem;
+    white-space: pre;
+    margin: 20px 0;
+    padding: 1.5rem 1.5rem;
+    line-height: 1.4;
+}
+
+main#content pre code {
+    padding: 0;
+}
+
+main#content pre code {
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    main#content pre {
+        font-size: 3vw; /* Adjusted for mobile using viewport width */
+        line-height: 1.3; /* Adjusted for mobile */
+    }
+}
+
+main#content .footnotes {
+    font-size: 0.9em;
+}
+
+footer#footer {
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #b3b3b3;
+    margin: 40px 0;
+}
+@media (min-width: 770px) {
+body {
+    width: 56.25rem;
+    line-height: 1.6;
+}
+
+main#content hr {
+    width: 108%;
+    margin-left: -3.8%;
+}
+
+/* index.html styles */
+header#banner h2 {
+    font-size: 25px;
+    font-size: 2.5rem;
+}
+
+main#content h3 {
+    font-size: 20px;
+    font-size: 2rem;
+}
+
+main#content ul#posts {
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+/* single.html styles */
+main#content header#post-header h1 {
+    font-size: 24px;
+    font-size: 2.4rem;
+}
+
+main#content img {
+    max-width: 108%;
+    margin-left: -3.8%;
+}
+
+main#content figure {
+    margin-left: -3.8%;
+}
+
+main#content figure img {
+    max-width: 108%;
+}
+
+main#content pre {
+    width: 108%;
+    margin-left: -3.8%;
+    padding: 1.5rem 2.2rem;
+}
+}
+/* Background */ .bg { color: #24292e; background-color: #ffffff; }
+/* PreWrapper */ .chroma { color: #24292e; background-color: #ffffff; }
+/* Other */ .chroma .x { }
+/* Error */ .chroma .err { color: #b31d28; background-color: #ffeef0; }
+/* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+/* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; }
+/* LineHighlight */ .chroma .hl { background-color: #fffbdd; }
+/* LineNumbersTable */ .chroma .lnt { white-space: pre; -webkit-user-select: none; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #959da5; }
+/* LineNumbers */ .chroma .ln { white-space: pre; -webkit-user-select: none; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em;color: #959da5; }
+/* Line */ .chroma .line { display: flex; }
+/* Keyword */ .chroma .k { color: #d73a49; }
+/* KeywordConstant */ .chroma .kc { color: #d73a49; }
+/* KeywordDeclaration */ .chroma .kd { color: #d73a49; }
+/* KeywordNamespace */ .chroma .kn { color: #d73a49; }
+/* KeywordPseudo */ .chroma .kp { color: #d73a49; }
+/* KeywordReserved */ .chroma .kr { color: #d73a49; }
+/* KeywordType */ .chroma .kt { color: #d73a49; }
+/* Name */ .chroma .n { }
+/* NameAttribute */ .chroma .na { color: #005cc5; }
+/* NameBuiltin */ .chroma .nb { color: #005cc5; }
+/* NameBuiltinPseudo */ .chroma .bp { color: #005cc5; }
+/* NameClass */ .chroma .nc { color: #6f42c1; }
+/* NameConstant */ .chroma .no { color: #005cc5; }
+/* NameDecorator */ .chroma .nd { color: #6f42c1; }
+/* NameEntity */ .chroma .ni { color: #24292e; }
+/* NameException */ .chroma .ne { color: #6f42c1; }
+/* NameFunction */ .chroma .nf { color: #6f42c1; }
+/* NameFunctionMagic */ .chroma .fm { color: #6f42c1; }
+/* NameLabel */ .chroma .nl { color: #6f42c1; }
+/* NameNamespace */ .chroma .nn { color: #6f42c1; }
+/* NameOther */ .chroma .nx { }
+/* NameProperty */ .chroma .py { color: #005cc5; }
+/* NameTag */ .chroma .nt { color: #22863a; }
+/* NameVariable */ .chroma .nv { color: #005cc5; }
+/* NameVariableClass */ .chroma .vc { color: #005cc5; }
+/* NameVariableGlobal */ .chroma .vg { color: #005cc5; }
+/* NameVariableInstance */ .chroma .vi { color: #005cc5; }
+/* NameVariableMagic */ .chroma .vm { color: #005cc5; }
+/* Literal */ .chroma .l { }
+/* LiteralDate */ .chroma .ld { }
+/* LiteralString */ .chroma .s { color: #032f62; }
+/* LiteralStringAffix */ .chroma .sa { color: #032f62; }
+/* LiteralStringBacktick */ .chroma .sb { color: #032f62; }
+/* LiteralStringChar */ .chroma .sc { color: #032f62; }
+/* LiteralStringDelimiter */ .chroma .dl { color: #032f62; }
+/* LiteralStringDoc */ .chroma .sd { color: #032f62; }
+/* LiteralStringDouble */ .chroma .s2 { color: #032f62; }
+/* LiteralStringEscape */ .chroma .se { color: #24292e; }
+/* LiteralStringHeredoc */ .chroma .sh { color: #032f62; }
+/* LiteralStringInterpol */ .chroma .si { color: #24292e; }
+/* LiteralStringOther */ .chroma .sx { color: #032f62; }
+/* LiteralStringRegex */ .chroma .sr { color: #032f62; }
+/* LiteralStringSingle */ .chroma .s1 { color: #032f62; }
+/* LiteralStringSymbol */ .chroma .ss { color: #032f62; }
+/* LiteralNumber */ .chroma .m { color: #005cc5; }
+/* LiteralNumberBin */ .chroma .mb { color: #005cc5; }
+/* LiteralNumberFloat */ .chroma .mf { color: #005cc5; }
+/* LiteralNumberHex */ .chroma .mh { color: #005cc5; }
+/* LiteralNumberInteger */ .chroma .mi { color: #005cc5; }
+/* LiteralNumberIntegerLong */ .chroma .il { color: #005cc5; }
+/* LiteralNumberOct */ .chroma .mo { color: #005cc5; }
+/* Operator */ .chroma .o { color: #d73a49; }
+/* OperatorWord */ .chroma .ow { color: #d73a49; }
+/* Punctuation */ .chroma .p { }
+/* Comment */ .chroma .c { color: #6a737d; }
+/* CommentHashbang */ .chroma .ch { color: #6a737d; }
+/* CommentMultiline */ .chroma .cm { color: #6a737d; }
+/* CommentSingle */ .chroma .c1 { color: #6a737d; }
+/* CommentSpecial */ .chroma .cs { color: #6a737d; }
+/* CommentPreproc */ .chroma .cp { color: #6a737d; }
+/* CommentPreprocFile */ .chroma .cpf { color: #6a737d; }
+/* Generic */ .chroma .g { }
+/* GenericDeleted */ .chroma .gd { color: #b31d28; background-color: #ffeef0; }
+/* GenericEmph */ .chroma .ge { font-style: italic; }
+/* GenericError */ .chroma .gr { }
+/* GenericHeading */ .chroma .gh { font-weight: bold; }
+/* GenericInserted */ .chroma .gi { color: #22863a; background-color: #f0fff4; }
+/* GenericOutput */ .chroma .go { }
+/* GenericPrompt */ .chroma .gp { }
+/* GenericStrong */ .chroma .gs { font-weight: bold; }
+/* GenericSubheading */ .chroma .gu { font-weight: bold; }
+/* GenericTraceback */ .chroma .gt { }
+/* GenericUnderline */ .chroma .gl { text-decoration: underline; }
+/* TextWhitespace */ .chroma .w { }#banner {
+    display: flex;
+    align-items: center;
+}
+
+#banner h2 {
+    margin-right: 1rem;
+}
+
+#banner nav {
+    margin-top: 0;
+}
+
+/* Add a subtle shadow and rounded corners to all images in your posts */
+article img {
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    display: block;
+    margin: 2em auto;
+    max-width: 100%;
+}
+
+/* Sidenote Styles */
+.sidenote {
+    float: right;
+    clear: right;
+    margin-right: -53%;
+    width: 40%;
+    margin-top: 0.3rem;
+    margin-bottom:0;
+    font-size: 1.2rem;
+    font-weight: 400;   
+    color: #555;
+    line-height: 1.3;
+    vertical-align: baseline;
+    position: relative;
+}
+
+.sidenote-left {
+    float: left;
+    clear: left;
+    margin-left: -53%;
+}
+
+/* On smaller screens, display sidenotes as inline notes */
+@media (max-width: 1024px) {
+    .sidenote {
+        display: block;
+        float: none;
+        clear: both;
+        width: 100%;
+        margin: 1rem 0;
+        padding: 1rem;
+        background-color: transparent; /* Removed light grey undertone */
+        border-left: none; /* Removed left border */
+    }
+
+    
+}
+
+/* GitHub-like Code Block Styles */
+.code-block-container {
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    margin-bottom: 1.5em;
+    overflow: hidden;
+}
+
+.code-block-header {
+    background-color: #f6f8fa;
+    padding: 8px 12px;
+    border-bottom: 1px solid #e1e4e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 0.85em;
+    color: #24292e;
+}
+
+
+
+.filename {
+    font-weight: 600;
+}
+
+.chroma {
+    background-color: #ffffff;
+    padding: 12px;
+    overflow-x: auto;
+}
+
+
+
+.chroma pre {
+    margin: 0;
+    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 0.80em;
+    line-height: 1.4;
+}
+
+.chroma code {
+    /* Color is handled by syntax.css */
+}
+
+/* --- New Customizations Below --- */
+
+body {
+    font-family: "SF Pro Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #111; /* Reverted to original body text color */
+    background-color: #F9F9F9;
+    font-size: 17px;
+}
+
+main#content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #111;
+}
