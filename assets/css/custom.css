@@ -113,15 +113,10 @@ body {
 }
 
 main#content {
-    max-width: 768px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #111;
-}
-
-main#content {
-    max-width: 768px;   
-    margin: 0 auto;
 }
