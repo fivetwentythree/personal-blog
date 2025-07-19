@@ -21,7 +21,6 @@ Breakout is a seminal arcade video game developed by Atari, Inc., and released i
 - **Lives and Progression**: Start with limited lives; levels advance with faster gameplay and varied brick layouts.
 - **Hardware**: Originally an arcade cabinet with black-and-white display (color overlays added); ports to Atari 2600 (1978) popularized home versions.
 
-**Legacy and Impact**: Breakout sold over 11,000 arcade units, grossing millions, and inspired the brick-breaker genre (e.g., Arkanoid, modern variants like Peggle). It influenced Apple's founding (Wozniak's involvement) and gaming design, emphasizing skill, precision, and endless replayability. Today, it's emulated widely and referenced in pop culture, symbolizing 1970s arcade innovation.
 {{< /sidenote >}}
 
 The paper introduces a novel agent, which they call a Deep Q-Network (DQN), that learns to play Atari games by looking only at the screen pixels, just like a human. The key innovations were:
@@ -37,18 +36,10 @@ The paper introduces a novel agent, which they call a Deep Q-Network (DQN), that
 ### lets build this components in python 
 Prerequisites 
 
-{{< sidenote >}}
-torch:  The deep learning framework.
-gymnasium:  The modern fork of OpenAI Gym, used for creating and interacting with the Atari environment.
-ale-py:  The Atari Learning Environment (ALE) backend for Gymnasium.
-numpy: For numerical operations.
-opencv-python:  For efficient image preprocessing (grayscale, resizing)
-{{< /sidenote >}}
 
 ```python 
 pip install torch gymnasium[atari] ale-py numpy opencv-python
 ```
-
 
 ### Step 1: Setting up the Environment & Preprocessing
 The paper specifies a series of preprocessing steps to make learning more manageable.
@@ -56,6 +47,7 @@ The paper specifies a series of preprocessing steps to make learning more manage
 * Downsample the image to 110x84.
 * Crop the image to an 84x84 region that captures the play area.
 * Stack the last 4 frames together to give the network a sense of motion (e.g., the ball's velocity).
+
 
 ⠀We can encapsulate this logic in a gymnasium wrapper.
 {{< sidenote >}}
